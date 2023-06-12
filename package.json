@@ -1,5 +1,5 @@
 {
-  "name": "eduverse-nuxt",
+  "name": "tsd.sumack.website",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,30 +7,36 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
-    "lint": "npm run lint:js && npm run lint:prettier",
-    "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix"
+    "lint": "npm run lint:prettier",
+    "lintfix": "prettier --write --list-different ."
   },
   "dependencies": {
+    "@mdi/font": "^7.0.96",
+    "@nuxt/content": "^1.0.0",
+    "@nuxtjs/auth": "^4.9.1",
     "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/proxy": "^2.1.0",
     "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/toast": "^3.3.1",
+    "@riophae/vue-treeselect": "^0.4.0",
+    "cookie-universal-nuxt": "^2.2.2",
     "core-js": "^3.25.3",
+    "firebase": "^9.20.0",
+    "mapir-vue": "^2.2.11",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
+    "vue-flickity": "^1.2.1",
+    "vue-jalali-moment": "^1.0.0",
+    "vue-persian-datetime-picker": "^2.10.4",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
+    "vue-template-compiler": "^2.7.10",
+    "vuetify": "^2.6.10",
+    "web-push": "^3.5.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.19.1",
-    "@nuxtjs/eslint-config": "^11.0.0",
-    "@nuxtjs/eslint-module": "^3.1.0",
-    "@nuxtjs/tailwindcss": "^5.3.3",
-    "eslint": "^8.24.0",
+    "@nuxtjs/vuetify": "^1.12.3",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-nuxt": "^4.0.0",
-    "eslint-plugin-vue": "^9.5.1",
-    "postcss": "^8.4.17",
     "prettier": "^2.7.1"
   }
 }

@@ -1,0 +1,145 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+
+// Base
+$font-size-root: 16px;
+$body-font-family: 'Shabnam', sans-serif;
+$heading-font-family: 'Shabnam', sans-serif;
+$material-light: (
+	'background': #F6F6F6
+);
+
+// typography
+$headings: (
+  'h1': (
+    'size': 6rem,
+    'weight': 300,
+    'line-height': 6rem,
+    'letter-spacing': -0.015625em,
+    'font-family': $heading-font-family,
+    'text-transform': false,
+  ),
+  'h2': (
+    'size': 3.75rem,
+    'weight': 300,
+    'line-height': 3.75rem,
+    'letter-spacing': -0.0083333333em,
+    'font-family': $heading-font-family,
+    'text-transform': false,
+  ),
+  'h3': (
+    'size': 3rem,
+    'weight': 400,
+    'line-height': 3.125rem,
+    'letter-spacing': normal,
+    'font-family': $heading-font-family,
+    'text-transform': false,
+  ),
+  'h4': (
+    'size': 2rem,
+    'weight': 400,
+    'line-height': 2.5rem,
+    'letter-spacing': 0,
+    'font-family': $heading-font-family,
+    'text-transform': false,
+  ),
+  'h5': (
+    'size': 1.5rem,
+    'weight': 400,
+    'line-height': 2rem,
+    'letter-spacing': normal,
+    'font-family': $heading-font-family,
+    'text-transform': false,
+  ),
+  'h6': (
+    'size': 1.25rem,
+    'weight': 500,
+    'line-height': 2rem,
+    'letter-spacing': 0.0125em,
+    'font-family': $heading-font-family,
+    'text-transform': false,
+  ),
+  'subtitle-1': (
+    'size': 1.125rem,
+    'weight': 500,
+    'line-height': 1.75rem,
+    'letter-spacing': 0.009375em,
+    'font-family': $body-font-family,
+    'text-transform': false,
+  ),
+  'subtitle-2': (
+    'size': 1rem,
+    'weight': 500,
+    'line-height': 1.75rem,
+    'letter-spacing': 0.0071428571em,
+    'font-family': $body-font-family,
+    'text-transform': false,
+  ),
+  'body-1': (
+    'size': 1rem,
+    'weight': 400,
+    'line-height': 2rem,
+    'letter-spacing': -0.03125,
+    'font-family': $body-font-family,
+    'text-transform': false,
+  ),
+  'body-2': (
+    'size': 0.875rem,
+    'weight': 400,
+    'line-height': 1.25rem,
+    'letter-spacing': 0,
+    'font-family': $body-font-family,
+    'text-transform': false,
+  ),
+  'button': (
+    'size': 1.25rem,
+    'weight': 700,
+    'line-height': 1.25rem,
+    'letter-spacing': 0,
+    'font-family': $body-font-family,
+    'text-transform': none,
+  ),
+  'caption': (
+    'size': 0.75rem,
+    'weight': 400,
+    'line-height': 1.25rem,
+    'letter-spacing': 0,
+    'font-family': $body-font-family,
+    'text-transform': false,
+  ),
+  'overline': (
+    'size': 0.75rem,
+    'weight': 500,
+    'line-height': 2rem,
+    'letter-spacing': 0,
+    'font-family': $body-font-family,
+    'text-transform': uppercase,
+  ),
+);
+// Btn
+$border-radius-root: 8px;
+$btn-letter-spacing: 0;
+$btn-font-weight: 700;
+$btn-font-sizes: (
+  'x-small': 16,
+  'small': 18,
+  'default': 20,
+  'large': 20,
+  'x-large': 22,
+);
+$btn-sizes: (
+  'x-small': 32,
+  'small': 36,
+  'default': 40,
+  'large': 48,
+  'x-large': 56,
+);
+$btn-text-transform: none;
+
+// breakpoints
+$grid-breakpoints: (
+  'xs': 0,
+  'sm': 600px,
+  'md': 960px,
+  'lg': 1280px - 16px,
+  'xl': 1601px,
+);
