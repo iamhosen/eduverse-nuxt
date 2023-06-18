@@ -70,12 +70,12 @@ export default {
   },
 
   env: {
-    MAP_API_KEY: process.env.MAP_API_KEY,
+    // MAP_API_KEY: process.env.MAP_API_KEY,
   },
 
   auth: {
     redirect: {
-      login: '/auth',
+      login: '/auth/login',
       logout: false,
       callback: '/auth',
       home: false,

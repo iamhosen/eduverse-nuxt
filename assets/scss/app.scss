@@ -27,6 +27,13 @@ html {
   scroll-behavior: smooth !important;
   overscroll-behavior-y: contain;
 }
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Shabnam', sans-serif;
+  direction: rtl;
+}
 .container {
   padding: 0 24px 0 24px !important;
 }
