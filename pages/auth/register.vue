@@ -32,7 +32,7 @@
     </v-form>
 
     <hr />
-    <nuxt-link to="/auth/register">
+    <nuxt-link to="/auth/login">
       <v-btn elevation="0" color="secondary-btn" block>ورود</v-btn>
     </nuxt-link>
   </div>
